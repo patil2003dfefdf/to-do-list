@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-Do List</title>
+	<style>
+		.container {
+			margin: 50px auto;
+			width: 80%;
+			max-width: 600px;
+			background-color: #f5f5f5;
+			padding: 20px;
+			border-radius: 5px;
+		}
+
+		form {
+			display: flex;
+			margin-bottom: 20px;
+		}
+
+		input[type="text"] {
+			flex: 1;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			margin-right: 10px;
+		}
+
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		li {
+			padding: 10px;
+			margin-bottom: 10px;
+			background-color: #fff;
+			border-radius: 5px;
+			box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<form>
+			<input type="text" placeholder="Add a to-do item...">
+			<input type="submit" value="Add">
+		</form>
+		<ul>
+			<li>Go to the grocery store</li>
+			<li>Finish coding project</li>
+			<li>Call mom</li>
+		</ul>
+	</div>
+</body>
+</html>
